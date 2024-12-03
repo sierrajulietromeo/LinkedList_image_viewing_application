@@ -37,6 +37,7 @@ A simple web application that displays images in a circular carousel format, all
 
 ## Project Structure
 
+```bash
 project/
 │
 ├── views/
@@ -49,6 +50,7 @@ project/
 │
 ├── index.js # Main server file
 └── package.json # Project dependencies
+```
 
 
 ## Setup and Running
