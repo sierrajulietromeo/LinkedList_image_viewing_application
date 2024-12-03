@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+  head
+    title Image Viewer
+    link(rel="stylesheet", type="text/css", href="/styles/style.css")
+  body
+    div.container
+      img.center-image(src=imageUrl)
+      div.navigation
+        if prevIndex !== undefined && prevIndex >= 0
+          a.button(href=`/image/${prevIndex}`) Previous
+        if nextIndex !== undefined
+          a.button(href=`/image/${nextIndex}`) Next
